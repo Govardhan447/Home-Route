@@ -1,0 +1,41 @@
+.item-content-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-info {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.blog-details-title {
+  color: #000000;
+  font-size: 30px;
+  font-family: roboto;
+  text-align: center;
+}
+.author-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.blog-image {
+  width: 100%;
+  height: 45%;
+}
+.blog-content {
+  color: #000000;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: 700;
+}
+.author-pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
